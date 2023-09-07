@@ -1,0 +1,44 @@
+.container {
+  background-color: #69696917;
+  min-height: 100vh;
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dialog {
+  background-color: #fff;
+  width: fit-content;
+  border-radius: 10px;
+  border: 1px solid silver;
+  padding: 20px 35px;
+  height: fit-content;
+  text-align: center;
+}
+
+.dialog h2 {
+  color: gray;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  margin: 40px 30px 10px;
+  background-color: rgb(21, 133, 21);
+  padding: 10px;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: all 0.2s ease-out;
+}
+
+.button:hover {
+  background-color: rgb(14, 109, 14);
+}
+
+.button img {
+  width: 40px;
+  margin-right: 10px;
+}
